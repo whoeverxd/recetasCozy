@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\recetascozy\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\recetascozy\\API\\API.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\recetascozy\\API\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"

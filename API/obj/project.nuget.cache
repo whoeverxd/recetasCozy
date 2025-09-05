@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "53N3Wr/BwW3TxtCOmowD0/71Ky6w/4dVKNtGpabqtQe5RYjZ4GOAPCyHRWYzqgbGKA8xe8e+FSvvzGay6hGQOg==",
+  "dgSpecHash": "iBLw83jXxy3JCwpmJHTrJZogEpWOfOD5aatyjFg2WwLpjWxNHiJLuZjlCXPDGXdySK6Ms+Tv262q3zPpl7bPDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\recetascozy\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
