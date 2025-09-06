@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joshua/Documents/GitHub/recetasCozy/API/API.csproj": {}
+    "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj": {}
   },
   "projects": {
-    "/Users/joshua/Documents/GitHub/recetasCozy/API/API.csproj": {
+    "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joshua/Documents/GitHub/recetasCozy/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/joshua/Documents/GitHub/recetasCozy/API/API.csproj",
-        "packagesPath": "/Users/joshua/.nuget/packages/",
-        "outputPath": "/Users/joshua/Documents/GitHub/recetasCozy/API/obj/",
+        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\recetasCozy\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joshua/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,24 +37,35 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -84,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,13 @@
-public class Receta
+using System;
+
+namespace API.Models
 {
-    public int Id { get; set; }          // Clave primaria
-    public string Nombre { get; set; }   // Nombre de la receta
-    public string Ingredientes { get; set; }
-    public string Instrucciones { get; set; }
+    public class Receta
+    {
+        public int Id { get; set; }
+        public string Titulo { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
+        public string Ingredientes { get; set; } = string.Empty;
+        public string Instrucciones { get; set; } = string.Empty;
+    }
 }

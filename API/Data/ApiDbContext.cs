@@ -1,11 +1,11 @@
-// Archivo: /Data/ApiDbContext.cs
 using Microsoft.EntityFrameworkCore;
+using API.Models;
 
-namespace API.Data   // <-- aquí va el namespace correcto
+namespace API.Data
 {
-    public class ApiDbContext : DbContext
+    public class CozyContext : DbContext
     {
-        public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options) { }
+        public CozyContext(DbContextOptions<CozyContext> options) : base(options) { }
 
         public DbSet<Receta> Recetas { get; set; }
     }

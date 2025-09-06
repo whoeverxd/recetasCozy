@@ -6,9 +6,9 @@ using API.Data;
 
 public class RecetasService
 {
-    private readonly ApiDbContext _context;
+    private readonly DbContext _context;
 
-    public RecetasService(ApiDbContext context)
+    public RecetasService(DbContext context)
     {
         _context = context;
     }
@@ -16,7 +16,9 @@ public class RecetasService
     // Método para obtener todas las recetas
     public List<Receta> GetAllRecetas()
     {
-        var todasRecetas = _context.Recetas.ToList();
-        return todasRecetas;
+
+        //var todasRecetas = _context.Recetas.ToList();
+        //return todasRecetas;
+        return _context.Set<Receta>().ToList();
     }
 }
